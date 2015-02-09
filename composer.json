@@ -1,7 +1,7 @@
 {
-    "name": "greggilbert/recaptcha",
-    "description": "reCAPTCHA Validator for Laravel 5",
-	"keywords": ["recaptcha", "captcha", "laravel", "laravel5"],
+    "name": "fembri/recaptcha",
+    "description": "reCAPTCHA Validator for Laravel 4",
+	"keywords": ["recaptcha", "captcha", "laravel", "laravel4"],
 	"homepage": "http://github.com/greggilbert/recaptcha",
 	"license": "MIT",
     "authors": [
@@ -12,19 +12,19 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "5.0.*"
+        "illuminate/support": "*"
     },
     "autoload": {
         "classmap": [
             "src/migrations"
         ],
-        "psr-4": {
-            "Greggilbert\\Recaptcha\\": "src/"
+        "psr-0": {
+            "Greggilbert\\Recaptcha": "src/"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0-dev"
+            "dev-master": "1.1.x-dev"
         }
     },
     "minimum-stability": "dev"
